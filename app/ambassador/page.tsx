@@ -213,7 +213,7 @@ export default function AmbassadorPage() {
                     3
                   </div>
                   <p className="text-gray-600">
-                    As a group leader, you're committed to keeping your group active by hosting at least one meet-up
+                    As a group leader, you&apos;re committed to keeping your group active by hosting at least one meet-up
                     event per quarter
                   </p>
                 </div>
@@ -284,7 +284,7 @@ export default function AmbassadorPage() {
                   <div className="w-2 h-2 bg-purple-600 rounded-full mt-3"></div>
                   <p className="text-gray-600">
                     For Roshe, mentorship to achieve our mission of Giving every person the freedom to grow together. By
-                    extending our reach to a wide base of people, no matter where they're based.
+                    extending our reach to a wide base of people, no matter where they&apos;re based.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">

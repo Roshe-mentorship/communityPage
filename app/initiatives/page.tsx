@@ -119,7 +119,7 @@ export default function InitiativesPage() {
                   </div>
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     Is dedicated to equipping women and girls with the skills, mentorship, and opportunities they need
-                    to thrive in the animation industry. From visibility to leadership, we're shaping a future where
+                    to thrive in the animation industry. From visibility to leadership, we&apos;re shaping a future where
                     female voices are seen, heard, and celebrated in animation.
                   </p>
                   <Button

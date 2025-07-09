@@ -151,14 +151,14 @@ export default function PoliciesPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Mentor Standards</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Sharing your experience with someone you've never met can feel like a leap of faith. But the impact you
+              Sharing your experience with someone you&apos;ve never met can feel like a leap of faith. But the impact you
               make through knowledge-sharing can be transformational. Mentees across the world join Roshe Mentorship
               eager to learn, grow, and evolve—thanks to your contributions.
             </p>
 
             <h3 className="text-2xl font-semibold mb-4">What are Mentor Standards?</h3>
             <p className="text-gray-600 mb-8">
-              To help guide your experience, we've created clear expectations for what it means to be a Roshe Mentorship
+              To help guide your experience, we&apos;ve created clear expectations for what it means to be a Roshe Mentorship
               mentor. This includes basic requirements like communication, calendar accuracy, and professional conduct.
               Mentees also leave reviews based on their experience with you.
             </p>
@@ -207,7 +207,7 @@ export default function PoliciesPage() {
                 <CardContent className="pt-6">
                   <h4 className="text-xl font-semibold mb-3">Cancellations</h4>
                   <p className="text-gray-600">
-                    We understand that life happens. However, avoid cancelling confirmed bookings unless it's truly
+                    We understand that life happens. However, avoid cancelling confirmed bookings unless it&apos;s truly
                     necessary. In cases of emergency, we expect prompt and respectful communication.
                   </p>
                 </CardContent>
@@ -233,7 +233,7 @@ export default function PoliciesPage() {
                     </li>
                     <li>
                       • <strong>Fake profiles:</strong> Using avatars, cartoon images, or misleading credentials (e.g.,
-                      job titles or industries you're not involved in) may result in removal from Roshe Mentorship.
+                      job titles or industries you&apos;re not involved in) may result in removal from Roshe Mentorship.
                     </li>
                   </ul>
                 </CardContent>
@@ -263,14 +263,14 @@ export default function PoliciesPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Mentee Standards</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Mentors join Roshe Mentorship to genuinely help people grow. It's a rewarding commitment, and mentees must
-              also be respectful, responsible, and prepared. Poor behavior can disrupt the mentor's time, energy, and
+              Mentors join Roshe Mentorship to genuinely help people grow. It&apos;s a rewarding commitment, and mentees must
+              also be respectful, responsible, and prepared. Poor behavior can disrupt the mentor&apos;s time, energy, and
               willingness to keep giving back.
             </p>
 
             <h3 className="text-2xl font-semibold mb-4">What are Mentee Standards?</h3>
             <p className="text-gray-600 mb-8">
-              We've introduced mentee guidelines to help ensure all users contribute to a respectful and productive
+              We&apos;ve introduced mentee guidelines to help ensure all users contribute to a respectful and productive
               environment. Repeated failure to meet these expectations may result in temporary or permanent suspension
               from Roshe Mentorship.
             </p>
@@ -336,7 +336,7 @@ export default function PoliciesPage() {
                       follow-up.
                     </li>
                     <li>
-                      • <strong>Biased or irrelevant reviews:</strong> Leave feedback only if it's constructive,
+                      • <strong>Biased or irrelevant reviews:</strong> Leave feedback only if it&apos;s constructive,
                       respectful, and relevant.
                     </li>
                     <li>
@@ -386,7 +386,7 @@ export default function PoliciesPage() {
                       • <strong>Responsiveness:</strong> Reply to messages and schedule updates in a timely manner.
                     </li>
                     <li>
-                      • <strong>Empathy & professionalism:</strong> Be mindful of others' time, values, and effort.
+                      • <strong>Empathy & professionalism:</strong> Be mindful of others&apos; time, values, and effort.
                     </li>
                   </ul>
                 </CardContent>
