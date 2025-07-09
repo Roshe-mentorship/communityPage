@@ -70,7 +70,7 @@ export default function HomePage() {
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg transform hover:scale-105 transition-all duration-200"
               asChild
             >
-              <Link href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.youtube.com/@RosheMentorship" target="_blank" rel="noopener noreferrer">
                 Be Inspired <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
