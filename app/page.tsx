@@ -17,7 +17,7 @@ export default function HomePage() {
       <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/images/roshe-logo.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
+            <Image src="/images/rosheAcademy2.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#community" className="text-sm font-medium hover:text-purple-600 transition-colors">
@@ -282,11 +282,11 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="col-span-2">
               <Image
-                src="/images/roshe-logo.png"
+                src="/images/rosheAcademy2.png"
                 alt="Roshe Mentorship"
                 width={200}
                 height={50}
-                className="h-8 w-auto mb-4 brightness-0 invert"
+                className="h-8 w-auto mb-4"
               />
               <p className="text-gray-300 mb-4 max-w-md">
                 Our mission is to give every person the freedom to grow together.
