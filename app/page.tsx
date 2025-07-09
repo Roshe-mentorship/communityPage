@@ -20,19 +20,19 @@ export default function HomePage() {
             <Image src="/images/rosheAcademy2.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#community" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="#community" className="text-base font-medium hover:text-purple-600 transition-colors">
               Community
             </Link>
-            <Link href="#partnerships" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="#partnerships" className="text-base font-medium hover:text-purple-600 transition-colors">
               Partnerships
             </Link>
-            <Link href="/ambassador" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
               Ambassador Program
             </Link>
-            <Link href="/initiatives" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
               Initiatives
             </Link>
-            <Link href="/policies" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
               Policies
             </Link>
           </nav>
@@ -56,7 +56,7 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto"
+            className="text-2xl text-gray-600 mb-8 max-w-2xl mx-auto"
           >
             Join a global community of mentors and mentees dedicated to professional growth and meaningful connections.
           </motion.p>
@@ -89,7 +89,7 @@ export default function HomePage() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Community</h2>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Roshe Mentorship is a global platform where people can find, book and meet mentors around the world! Our
                 goal is to foster an inclusive space and support network for designers, product managers, and engineers
                 to come together, learn from each other, and strive to be better!
@@ -141,7 +141,7 @@ export default function HomePage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
-              className="text-xl text-gray-600 mb-8"
+              className="text-2xl text-gray-600 mb-8"
             >
               We partner with dedicated organizations who share our vision...
             </motion.p>
@@ -157,8 +157,8 @@ export default function HomePage() {
                     <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.6 }}>
                       <Globe className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                     </motion.div>
-                    <h3 className="text-xl font-semibold mb-3">Global Reach</h3>
-                    <p className="text-gray-600">
+                    <h3 className="text-2xl font-semibold mb-3">Global Reach</h3>
+                    <p className="text-lg text-gray-600">
                       Connecting mentors and mentees across continents to create meaningful professional relationships.
                     </p>
                   </CardContent>
@@ -175,8 +175,8 @@ export default function HomePage() {
                     <motion.div whileHover={{ scale: 1.2 }} transition={{ duration: 0.3 }}>
                       <Heart className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                     </motion.div>
-                    <h3 className="text-xl font-semibold mb-3">Shared Values</h3>
-                    <p className="text-gray-600">
+                    <h3 className="text-2xl font-semibold mb-3">Shared Values</h3>
+                    <p className="text-lg text-gray-600">
                       Working with organizations that believe in democratizing access to mentorship and professional
                       growth.
                     </p>
@@ -215,7 +215,7 @@ export default function HomePage() {
               <div className="text-4xl font-bold text-purple-600 mb-2">
                 <AnimatedCounter end={10000} suffix="+" />
               </div>
-              <p className="text-gray-600">Community Members</p>
+              <p className="text-lg text-gray-600">Community Members</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -226,7 +226,7 @@ export default function HomePage() {
               <div className="text-4xl font-bold text-purple-600 mb-2">
                 <AnimatedCounter end={500} suffix="+" />
               </div>
-              <p className="text-gray-600">Active Mentors</p>
+              <p className="text-lg text-gray-600">Active Mentors</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -237,7 +237,7 @@ export default function HomePage() {
               <div className="text-4xl font-bold text-purple-600 mb-2">
                 <AnimatedCounter end={50} suffix="+" />
               </div>
-              <p className="text-gray-600">Countries</p>
+              <p className="text-lg text-gray-600">Countries</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -248,7 +248,7 @@ export default function HomePage() {
               <div className="text-4xl font-bold text-purple-600 mb-2">
                 <AnimatedCounter end={25000} suffix="+" />
               </div>
-              <p className="text-gray-600">Sessions Completed</p>
+              <p className="text-lg text-gray-600">Sessions Completed</p>
             </motion.div>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function HomePage() {
       <section className="py-20 bg-purple-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Join Our Community?</h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-2xl mb-8 opacity-90">
             Start your mentorship journey today and connect with professionals worldwide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
