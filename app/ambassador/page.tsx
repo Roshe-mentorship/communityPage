@@ -16,13 +16,16 @@ export default function AmbassadorPage() {
             <Image src="/images/rosheAcademy2.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/" className="text-base font-medium hover:text-purple-600 transition-colors">
               Home
             </Link>
-            <Link href="/initiatives" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
               Initiatives
             </Link>
-            <Link href="/policies" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+              Blog
+            </Link>
+            <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
               Policies
             </Link>
           </nav>

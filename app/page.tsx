@@ -32,6 +32,9 @@ export default function HomePage() {
             <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
               Initiatives
             </Link>
+            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+              Blog
+            </Link>
             <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
               Policies
             </Link>
@@ -306,7 +309,7 @@ export default function HomePage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="/blog" className="hover:text-white transition-colors">
                     Blog & Resources
                   </Link>
                 </li>

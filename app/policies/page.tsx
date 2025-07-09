@@ -16,14 +16,17 @@ export default function PoliciesPage() {
             <Image src="/images/roshe-logo.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/" className="text-base font-medium hover:text-purple-600 transition-colors">
               Home
             </Link>
-            <Link href="/ambassador" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
               Ambassador Program
             </Link>
-            <Link href="/initiatives" className="text-sm font-medium hover:text-purple-600 transition-colors">
+            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
               Initiatives
+            </Link>
+            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+              Blog
             </Link>
           </nav>
         </div>
