@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Roshe Mentorship - Democratizing Mentorship Globally",
   description: "Join a global community of mentors and mentees dedicated to professional growth and meaningful connections. Our mission is to give every aspiring professional the freedom to grow together.",
+  icons: {
+    icon: '/images/rosheAcademy2.ico',
+  },
 };
 
 export default function RootLayout({
