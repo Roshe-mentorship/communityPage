@@ -27,7 +27,7 @@ export default function HomePage() {
               Partnerships
             </Link>
             <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
-              Ambassador Program
+              Ambassador
             </Link>
             <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
               Initiatives

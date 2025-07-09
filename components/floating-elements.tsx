@@ -6,7 +6,7 @@ export function FloatingElements() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       <motion.div
-        className="absolute top-20 left-10 w-4 h-4 bg-purple-200 rounded-full opacity-60"
+        className="absolute top-20 left-10 w-4 h-4 bg-purple-300 rounded-full opacity-60"
         animate={{
           y: [0, -20, 0],
           x: [0, 10, 0],
