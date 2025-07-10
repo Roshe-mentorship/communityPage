@@ -120,3 +120,80 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom Roshe Purple Color Classes */
+.bg-roshe-purple {
+  background-color: #9898FA !important;
+}
+
+.text-roshe-purple {
+  color: #9898FA !important;
+}
+
+.border-roshe-purple {
+  border-color: #9898FA !important;
+}
+
+.hover\:bg-roshe-purple:hover {
+  background-color: #9898FA !important;
+}
+
+.hover\:text-roshe-purple:hover {
+  color: #9898FA !important;
+}
+
+.bg-roshe-purple-50 {
+  background-color: #f3f3fe !important;
+}
+
+.bg-roshe-purple-100 {
+  background-color: #e7e7fd !important;
+}
+
+.bg-roshe-purple-200 {
+  background-color: #d1d1fc !important;
+}
+
+.bg-roshe-purple-700 {
+  background-color: #7a7af8 !important;
+}
+
+.bg-roshe-purple-800 {
+  background-color: #6b6bf7 !important;
+}
+
+.text-roshe-purple-600 {
+  color: #9898FA !important;
+}
+
+.text-roshe-purple-700 {
+  color: #7a7af8 !important;
+}
+
+.text-roshe-purple-800 {
+  color: #6b6bf7 !important;
+}
+
+.border-roshe-purple-200 {
+  border-color: #d1d1fc !important;
+}
+
+.hover\:border-roshe-purple:hover {
+  border-color: #9898FA !important;
+}
+
+.hover\:border-roshe-purple-200:hover {
+  border-color: #d1d1fc !important;
+}
+
+.hover\:bg-roshe-purple-100:hover {
+  background-color: #e7e7fd !important;
+}
+
+.hover\:bg-roshe-purple-600:hover {
+  background-color: #9898FA !important;
+}
+
+.hover\:text-roshe-purple-600:hover {
+  color: #9898FA !important;
+}

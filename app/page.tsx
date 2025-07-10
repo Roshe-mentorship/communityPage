@@ -20,22 +20,26 @@ export default function HomePage() {
             <Image src="/images/rosheAcademy2.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#community" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="#community" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Community
             </Link>
-            <Link href="#partnerships" className="text-base font-medium hover:text-purple-600 transition-colors">
-              Partnerships
-            </Link>
-            <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
+            
+            <Link href="/ambassador" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Ambassador
             </Link>
-            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
+
+            <Link href="/initiatives" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Initiatives
             </Link>
-            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+
+            <Link href="#partnerships" className="text-base font-medium hover:text-roshe-purple transition-colors">
+              Partnerships
+            </Link>
+
+            <Link href="/blog" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Blog
             </Link>
-            <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/policies" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Policies
             </Link>
           </nav>
@@ -43,7 +47,7 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 lg:py-32 bg-gradient-to-br from-purple-50 to-blue-50 overflow-hidden relative">
+      <section className="py-20 lg:py-32 bg-gradient-to-br from-roshe-purple-light to-blue-50 overflow-hidden relative">
         <FloatingElements />
         <div className="container mx-auto px-4 relative z-10">
           <motion.h1
@@ -52,7 +56,7 @@ export default function HomePage() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight"
           >
-            Our mission is to <span className="text-purple-600">Give every aspiring professional</span> the freedom to
+            Our mission is to <span className="text-roshe-purple">Give every aspiring professional</span> the freedom to
             grow together.
           </motion.h1>
           <motion.p
@@ -70,7 +74,7 @@ export default function HomePage() {
           >
             <Button
               size="lg"
-              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg transform hover:scale-105 transition-all duration-200"
+              className="bg-roshe-purple hover:bg-roshe-purple-hover text-white px-8 py-4 text-lg transform hover:scale-105 transition-all duration-200"
               asChild
             >
               <Link href="https://www.youtube.com/@RosheMentorship" target="_blank" rel="noopener noreferrer">
@@ -99,7 +103,7 @@ export default function HomePage() {
               </p>
               <Button
                 size="lg"
-                className="bg-purple-600 hover:bg-purple-700 text-white transform hover:scale-105 transition-all duration-200"
+                className="bg-roshe-purple hover:bg-roshe-purple-hover text-white transform hover:scale-105 transition-all duration-200"
                 asChild
               >
                 <Link href="/ambassador">
@@ -158,7 +162,7 @@ export default function HomePage() {
                 <Card className="p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
                   <CardContent className="pt-6">
                     <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.6 }}>
-                      <Globe className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                      <Globe className="h-12 w-12 text-roshe-purple mx-auto mb-4" />
                     </motion.div>
                     <h3 className="text-2xl font-semibold mb-3">Global Reach</h3>
                     <p className="text-lg text-gray-600">
@@ -176,7 +180,7 @@ export default function HomePage() {
                 <Card className="p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
                   <CardContent className="pt-6">
                     <motion.div whileHover={{ scale: 1.2 }} transition={{ duration: 0.3 }}>
-                      <Heart className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                      <Heart className="h-12 w-12 text-roshe-purple mx-auto mb-4" />
                     </motion.div>
                     <h3 className="text-2xl font-semibold mb-3">Shared Values</h3>
                     <p className="text-lg text-gray-600">
@@ -196,7 +200,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-transparent transform hover:scale-105 transition-all duration-200"
+                className="border-roshe-purple text-roshe-purple hover:bg-roshe-purple hover:text-white bg-transparent transform hover:scale-105 transition-all duration-200"
               >
                 Partner with Us
               </Button>
@@ -215,7 +219,7 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="text-4xl font-bold text-purple-600 mb-2">
+              <div className="text-4xl font-bold text-roshe-purple mb-2">
                 <AnimatedCounter end={10000} suffix="+" />
               </div>
               <p className="text-lg text-gray-600">Community Members</p>
@@ -226,7 +230,7 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <div className="text-4xl font-bold text-purple-600 mb-2">
+              <div className="text-4xl font-bold text-roshe-purple mb-2">
                 <AnimatedCounter end={500} suffix="+" />
               </div>
               <p className="text-lg text-gray-600">Active Mentors</p>
@@ -237,7 +241,7 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="text-4xl font-bold text-purple-600 mb-2">
+              <div className="text-4xl font-bold text-roshe-purple mb-2">
                 <AnimatedCounter end={50} suffix="+" />
               </div>
               <p className="text-lg text-gray-600">Countries</p>
@@ -248,7 +252,7 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <div className="text-4xl font-bold text-purple-600 mb-2">
+              <div className="text-4xl font-bold text-roshe-purple mb-2">
                 <AnimatedCounter end={25000} suffix="+" />
               </div>
               <p className="text-lg text-gray-600">Sessions Completed</p>
@@ -258,20 +262,20 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-purple-600 text-white">
+      <section className="py-20 bg-roshe-purple text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Join Our Community?</h2>
           <p className="text-2xl mb-8 opacity-90">
             Start your mentorship journey today and connect with professionals worldwide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100" asChild>
+            <Button size="lg" variant="secondary" className="bg-white text-roshe-purple hover:bg-gray-100" asChild>
               <Link href="/ambassador">Become an Ambassador</Link>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-purple-600 bg-transparent"
+              className="border-white text-white hover:bg-white hover:text-roshe-purple bg-transparent"
             >
               Find a Mentor
             </Button>

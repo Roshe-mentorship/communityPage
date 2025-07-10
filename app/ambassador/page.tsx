@@ -16,16 +16,16 @@ export default function AmbassadorPage() {
             <Image src="/images/rosheAcademy2.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Home
             </Link>
-            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/initiatives" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Initiatives
             </Link>
-            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/blog" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Blog
             </Link>
-            <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/policies" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Policies
             </Link>
           </nav>
@@ -33,7 +33,7 @@ export default function AmbassadorPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-roshe-purple-light to-blue-50">
         <div className="container mx-auto px-4 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ export default function AmbassadorPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-2xl md:text-3xl text-purple-600 mb-8 font-semibold"
+            className="text-2xl md:text-3xl text-roshe-purple mb-8 font-semibold"
           >
             Join Us – Be the Change. Help us democratize mentorship globally
           </motion.h2>
@@ -78,17 +78,17 @@ export default function AmbassadorPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <Card className="p-8 hover:shadow-lg transition-all duration-300 border-2 hover:border-purple-200 transform hover:-translate-y-2">
+              <Card className="p-8 hover:shadow-lg transition-all duration-300 border-2 hover:border-roshe-purple-light transform hover:-translate-y-2">
                 <CardContent className="pt-6 text-center">
                   <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.6 }}>
-                    <MapPin className="h-16 w-16 text-purple-600 mx-auto mb-6" />
+                    <MapPin className="h-16 w-16 text-roshe-purple mx-auto mb-6" />
                   </motion.div>
                   <h3 className="text-2xl font-bold mb-4">Become a Roshe Ambassador in your city</h3>
                   <p className="text-gray-600 mb-6">
                     Lead your local community and organize events that bring mentors and mentees together.
                   </p>
                   <Button
-                    className="bg-purple-600 hover:bg-purple-700 text-white w-full transform hover:scale-105 transition-all duration-200"
+                    className="bg-roshe-purple hover:bg-roshe-purple-hover text-white w-full transform hover:scale-105 transition-all duration-200"
                     asChild
                   >
                     <Link href="#city-ambassador">Learn More</Link>
@@ -103,10 +103,10 @@ export default function AmbassadorPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <Card className="p-8 hover:shadow-lg transition-all duration-300 border-2 hover:border-purple-200 transform hover:-translate-y-2">
+              <Card className="p-8 hover:shadow-lg transition-all duration-300 border-2 hover:border-roshe-purple-light transform hover:-translate-y-2">
                 <CardContent className="pt-6 text-center">
                   <motion.div whileHover={{ scale: 1.2 }} transition={{ duration: 0.3 }}>
-                    <GraduationCap className="h-16 w-16 text-purple-600 mx-auto mb-6" />
+                    <GraduationCap className="h-16 w-16 text-roshe-purple mx-auto mb-6" />
                   </motion.div>
                   <h3 className="text-2xl font-bold mb-4">Become a Roshe ambassador on your campus</h3>
                   <p className="text-gray-600 mb-6">
@@ -114,7 +114,7 @@ export default function AmbassadorPage() {
                     professionals.
                   </p>
                   <Button
-                    className="bg-purple-600 hover:bg-purple-700 text-white w-full transform hover:scale-105 transition-all duration-200"
+                    className="bg-roshe-purple hover:bg-roshe-purple-hover text-white w-full transform hover:scale-105 transition-all duration-200"
                     asChild
                   >
                     <Link href="#campus-ambassador">Learn More</Link>
@@ -139,7 +139,7 @@ export default function AmbassadorPage() {
             </p>
 
             <div className="text-center mb-12">
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white" asChild>
+              <Button size="lg" className="bg-roshe-purple hover:bg-roshe-purple-hover text-white" asChild>
                 <Link href="https://forms.google.com" target="_blank" rel="noopener noreferrer">
                   Apply as City Ambassador <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
