@@ -91,7 +91,7 @@ export default function AmbassadorPage() {
                     className="bg-roshe-purple hover:bg-roshe-purple-hover text-white w-full transform hover:scale-105 transition-all duration-200"
                     asChild
                   >
-                    <Link href="#city-ambassador">Learn More</Link>
+                    <Link href="#city-ambassador">Become a City Ambassador</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -117,7 +117,7 @@ export default function AmbassadorPage() {
                     className="bg-roshe-purple hover:bg-roshe-purple-hover text-white w-full transform hover:scale-105 transition-all duration-200"
                     asChild
                   >
-                    <Link href="#campus-ambassador">Learn More</Link>
+                    <Link href="#campus-ambassador">Become a Campus Ambassador</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -158,7 +158,7 @@ export default function AmbassadorPage() {
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <Card className="p-6">
                   <CardContent className="pt-6">
-                    <Users className="h-8 w-8 text-purple-600 mb-4" />
+                    <Users className="h-8 w-8 text-roshe-purple mb-4" />
                     <h5 className="font-semibold mb-2">Community Building</h5>
                     <p className="text-gray-600 text-sm">
                       Creating and managing user groups online and around the world, teaching Roshe mentorship through
@@ -169,7 +169,7 @@ export default function AmbassadorPage() {
 
                 <Card className="p-6">
                   <CardContent className="pt-6">
-                    <Star className="h-8 w-8 text-purple-600 mb-4" />
+                    <Star className="h-8 w-8 text-roshe-purple mb-4" />
                     <h5 className="font-semibold mb-2">Content Creation</h5>
                     <p className="text-gray-600 text-sm">
                       Creating and sharing resources like writing articles, producing videos (live streams, tutorials,
@@ -196,7 +196,7 @@ export default function AmbassadorPage() {
               <h3 className="text-2xl font-bold mb-6">Qualities of a City Ambassador</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">
+                  <div className="w-6 h-6 bg-roshe-purple text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">
                     1
                   </div>
                   <p className="text-gray-600">
@@ -204,7 +204,7 @@ export default function AmbassadorPage() {
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">
+                  <div className="w-6 h-6 bg-roshe-purple text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">
                     2
                   </div>
                   <p className="text-gray-600">
@@ -212,7 +212,7 @@ export default function AmbassadorPage() {
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">
+                  <div className="w-6 h-6 bg-roshe-purple text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">
                     3
                   </div>
                   <p className="text-gray-600">
@@ -229,7 +229,7 @@ export default function AmbassadorPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <Card className="p-6">
                   <CardContent className="pt-6">
-                    <TrendingUp className="h-8 w-8 text-purple-600 mb-4" />
+                    <TrendingUp className="h-8 w-8 text-roshe-purple mb-4" />
                     <h5 className="font-semibold mb-2">Build Your Resume</h5>
                     <p className="text-gray-600 text-sm">Recognition as a leader with Roshe mentorship</p>
                   </CardContent>
@@ -237,7 +237,7 @@ export default function AmbassadorPage() {
 
                 <Card className="p-6">
                   <CardContent className="pt-6">
-                    <Network className="h-8 w-8 text-purple-600 mb-4" />
+                    <Network className="h-8 w-8 text-roshe-purple mb-4" />
                     <h5 className="font-semibold mb-2">Network Magic</h5>
                     <p className="text-gray-600 text-sm">
                       Private Slack channel for Campus Ambassadors & City Leaders worldwide to share best practices
@@ -247,7 +247,7 @@ export default function AmbassadorPage() {
 
                 <Card className="p-6">
                   <CardContent className="pt-6">
-                    <Gift className="h-8 w-8 text-purple-600 mb-4" />
+                    <Gift className="h-8 w-8 text-roshe-purple mb-4" />
                     <h5 className="font-semibold mb-2">Swag It</h5>
                     <p className="text-gray-600 text-sm">Gift Cards, Cool swag!</p>
                   </CardContent>
@@ -255,7 +255,7 @@ export default function AmbassadorPage() {
 
                 <Card className="p-6">
                   <CardContent className="pt-6">
-                    <Users className="h-8 w-8 text-purple-600 mb-4" />
+                    <Users className="h-8 w-8 text-roshe-purple mb-4" />
                     <h5 className="font-semibold mb-2">Impact Your Peers</h5>
                     <p className="text-gray-600 text-sm">
                       Closer engagement with the Roshe mentorship team and product through sneak peeks and beta programs
@@ -270,28 +270,28 @@ export default function AmbassadorPage() {
               <h3 className="text-2xl font-bold mb-6">Community Objectives</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mt-3"></div>
+                  <div className="w-2 h-2 bg-roshe-purple rounded-full mt-3"></div>
                   <p className="text-gray-600">
                     For Ambassadors to partake in a mutually beneficial relationship by amplifying the voice of our
                     community while having the opportunity to grow professionally and personally.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mt-3"></div>
+                  <div className="w-2 h-2 bg-roshe-purple rounded-full mt-3"></div>
                   <p className="text-gray-600">
                     For Mentors to help them grow professionally into a more senior role in the design, increasing their
                     visibility and credibility as a source of design through leadership.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mt-3"></div>
+                  <div className="w-2 h-2 bg-roshe-purple rounded-full mt-3"></div>
                   <p className="text-gray-600">
                     For Roshe, mentorship to achieve our mission of Giving every person the freedom to grow together. By
                     extending our reach to a wide base of people, no matter where they&apos;re based.
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mt-3"></div>
+                  <div className="w-2 h-2 bg-roshe-purple rounded-full mt-3"></div>
                   <p className="text-gray-600">
                     For Mentees to get opportunities to grow, benefitting from the knowledge of someone that they can
                     book mentoring sessions with & gain knowledge from ambassadors.
@@ -329,7 +329,7 @@ export default function AmbassadorPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-transparent"
+                className="border-roshe-purple text-roshe-purple hover:bg-roshe-purple hover:text-white bg-transparent"
                 asChild
               >
                 <Link href="https://forms.google.com" target="_blank" rel="noopener noreferrer">

@@ -16,16 +16,16 @@ export default function PoliciesPage() {
             <Image src="/images/roshe-logo.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Home
             </Link>
-            <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/ambassador" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Ambassador Program
             </Link>
-            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/initiatives" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Initiatives
             </Link>
-            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/blog" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Blog
             </Link>
           </nav>
@@ -33,7 +33,7 @@ export default function PoliciesPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-roshe-purple-light to-blue-50">
         <div className="container mx-auto px-4 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -79,7 +79,7 @@ export default function PoliciesPage() {
               <Card className="hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-2">
                 <CardContent className="p-6 text-center">
                   <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.6 }}>
-                    <Shield className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                    <Shield className="h-12 w-12 text-roshe-purple mx-auto mb-4" />
                   </motion.div>
                   <h3 className="text-xl font-semibold mb-2">Mentor Standards</h3>
                   <p className="text-gray-600 text-sm mb-4">Guidelines and expectations for mentors</p>
@@ -104,7 +104,7 @@ export default function PoliciesPage() {
               <Card className="hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-2">
                 <CardContent className="p-6 text-center">
                   <motion.div whileHover={{ scale: 1.2 }} transition={{ duration: 0.3 }}>
-                    <Users className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                    <Users className="h-12 w-12 text-roshe-purple mx-auto mb-4" />
                   </motion.div>
                   <h3 className="text-xl font-semibold mb-2">Mentee Standards</h3>
                   <p className="text-gray-600 text-sm mb-4">Guidelines and expectations for mentees</p>
@@ -129,7 +129,7 @@ export default function PoliciesPage() {
               <Card className="hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-2">
                 <CardContent className="p-6 text-center">
                   <motion.div whileHover={{ scale: 1.2 }} transition={{ duration: 0.3 }}>
-                    <Heart className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                    <Heart className="h-12 w-12 text-roshe-purple mx-auto mb-4" />
                   </motion.div>
                   <h3 className="text-xl font-semibold mb-2">Community Standards</h3>
                   <p className="text-gray-600 text-sm mb-4">General community principles and guidelines</p>

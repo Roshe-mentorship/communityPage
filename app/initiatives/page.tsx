@@ -16,16 +16,16 @@ export default function InitiativesPage() {
             <Image src="/images/roshe-logo.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Home
             </Link>
-            <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/ambassador" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Ambassador Program
             </Link>
-            <Link href="/blog" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/blog" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Blog
             </Link>
-            <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/policies" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Policies
             </Link>
           </nav>
@@ -33,7 +33,7 @@ export default function InitiativesPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-roshe-purple-light to-blue-50">
         <div className="container mx-auto px-4 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -74,7 +74,7 @@ export default function InitiativesPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center mb-4">
                     <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.6 }}>
-                      <Palette className="h-8 w-8 text-purple-600 mr-3" />
+                      <Palette className="h-8 w-8 text-roshe-purple mr-3" />
                     </motion.div>
                     <h2 className="text-2xl font-bold text-gray-900">Animation4Change</h2>
                   </div>
@@ -84,7 +84,7 @@ export default function InitiativesPage() {
                   </p>
                   <Button
                     variant="outline"
-                    className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-transparent transform hover:scale-105 transition-all duration-200"
+                    className="border-roshe-purple text-roshe-purple hover:bg-roshe-purple hover:text-white bg-transparent transform hover:scale-105 transition-all duration-200"
                     disabled
                   >
                     Coming Soon
@@ -116,7 +116,7 @@ export default function InitiativesPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center mb-4">
                     <motion.div whileHover={{ scale: 1.2 }} transition={{ duration: 0.3 }}>
-                      <Users className="h-8 w-8 text-purple-600 mr-3" />
+                      <Users className="h-8 w-8 text-roshe-purple mr-3" />
                     </motion.div>
                     <h2 className="text-2xl font-bold text-gray-900">Women in Animation</h2>
                   </div>
@@ -127,7 +127,7 @@ export default function InitiativesPage() {
                   </p>
                   <Button
                     variant="outline"
-                    className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-transparent transform hover:scale-105 transition-all duration-200"
+                    className="border-roshe-purple text-roshe-purple hover:bg-roshe-purple hover:text-white bg-transparent transform hover:scale-105 transition-all duration-200"
                     disabled
                   >
                     Coming Soon
@@ -140,20 +140,20 @@ export default function InitiativesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-purple-600 text-white">
+      <section className="py-20 bg-roshe-purple text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Want to Get Involved?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Join our community and help us create meaningful change through mentorship and creative initiatives.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100" asChild>
+            <Button size="lg" variant="secondary" className="bg-white text-roshe-purple hover:bg-gray-100" asChild>
               <Link href="/ambassador">Become an Ambassador</Link>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-purple-600 bg-transparent"
+              className="border-white text-white hover:bg-white hover:text-roshe-purple bg-transparent"
               asChild
             >
               <Link href="/">Join Our Community</Link>
