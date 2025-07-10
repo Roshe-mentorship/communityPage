@@ -88,16 +88,16 @@ export default function BlogPage() {
             <Image src="/images/rosheAcademy2.png" alt="Roshe Mentorship" width={200} height={50} className="h-8 w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Home
             </Link>
-            <Link href="/ambassador" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/ambassador" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Ambassador Program
             </Link>
-            <Link href="/initiatives" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/initiatives" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Initiatives
             </Link>
-            <Link href="/policies" className="text-base font-medium hover:text-purple-600 transition-colors">
+            <Link href="/policies" className="text-base font-medium hover:text-roshe-purple transition-colors">
               Policies
             </Link>
           </nav>
@@ -105,7 +105,7 @@ export default function BlogPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-roshe-purple-light to-blue-50">
         <div className="container mx-auto px-4 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -138,8 +138,8 @@ export default function BlogPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className={`px-6 py-2 rounded-full text-base font-medium transition-all duration-200 transform hover:scale-105 ${
                   index === 0 
-                    ? "bg-purple-600 text-white" 
-                    : "bg-gray-100 text-gray-600 hover:bg-purple-100 hover:text-purple-600"
+                    ? "bg-roshe-purple text-white" 
+                    : "bg-gray-100 text-gray-600 hover:bg-roshe-purple-light hover:text-roshe-purple"
                 }`}
               >
                 {category}
@@ -172,7 +172,7 @@ export default function BlogPage() {
                 </div>
                 <CardContent className="p-8 flex flex-col justify-center">
                   <div className="flex items-center space-x-4 mb-4">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-600">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-roshe-purple-light text-roshe-purple">
                       <Tag className="h-3 w-3 mr-1" />
                       {blogPosts[0].category}
                     </span>
@@ -194,7 +194,7 @@ export default function BlogPage() {
                       <Clock className="h-4 w-4 text-gray-400 ml-4" />
                       <span className="text-gray-600">{blogPosts[0].readTime}</span>
                     </div>
-                    <Button className="bg-purple-600 hover:bg-purple-700 text-white transform hover:scale-105 transition-all duration-200">
+                    <Button className="bg-roshe-purple hover:bg-roshe-purple-hover text-white transform hover:scale-105 transition-all duration-200">
                       Read More <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </div>
@@ -230,7 +230,7 @@ export default function BlogPage() {
                     </div>
                     <CardContent className="p-6 flex flex-col h-full">
                       <div className="flex items-center space-x-4 mb-3">
-                        <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-600">
+                        <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-roshe-purple-light text-roshe-purple">
                           <Tag className="h-3 w-3 mr-1" />
                           {post.category}
                         </span>
@@ -252,7 +252,7 @@ export default function BlogPage() {
                           <Clock className="h-3 w-3 ml-2" />
                           <span>{post.readTime}</span>
                         </div>
-                        <Button size="sm" variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white">
+                        <Button size="sm" variant="outline" className="border-roshe-purple text-roshe-purple hover:bg-roshe-purple hover:text-white">
                           Read
                         </Button>
                       </div>
@@ -266,7 +266,7 @@ export default function BlogPage() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-16 bg-purple-600 text-white">
+      <section className="py-16 bg-roshe-purple text-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -285,7 +285,7 @@ export default function BlogPage() {
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
               />
-              <Button variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100 px-6 py-3">
+              <Button variant="secondary" className="bg-white text-roshe-purple hover:bg-gray-100 px-6 py-3">
                 Subscribe
               </Button>
             </div>

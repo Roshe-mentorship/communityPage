@@ -414,10 +414,10 @@ export default function PoliciesPage() {
               </Card>
             </div>
 
-            <Card className="p-8 bg-purple-50 border-purple-200">
+            <Card className="p-8 bg-roshe-purple-light border-roshe-purple-light">
               <CardContent className="pt-6 text-center">
-                <h3 className="text-2xl font-bold text-purple-800 mb-4">Our Commitment</h3>
-                <p className="text-purple-700 text-lg">
+                <h3 className="text-2xl font-bold text-roshe-purple mb-4">Our Commitment</h3>
+                <p className="text-roshe-purple text-lg">
                   Let us build a strong, safe, and empowering community at Roshe Mentorship where mutual growth,
                   respect, and trust guide every connection.
                 </p>
@@ -428,14 +428,14 @@ export default function PoliciesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-purple-600 text-white">
+      <section className="py-20 bg-roshe-purple text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Join Our Community?</h2>
           <p className="text-xl mb-8 opacity-90">
             By joining Roshe Mentorship, you agree to uphold these community standards and help create a positive
             environment for all.
           </p>
-          <Button size="lg" variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100" asChild>
+          <Button size="lg" variant="secondary" className="bg-white text-roshe-purple hover:bg-gray-100" asChild>
             <Link href="/">Join Roshe Mentorship</Link>
           </Button>
         </div>
